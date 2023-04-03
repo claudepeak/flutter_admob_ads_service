@@ -1,0 +1,29 @@
+name: app_name
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 2.0.0+107
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+ 
+  flutter:
+    sdk: flutter
+ 
+  # YOU MUST BE ADD THIS PACKAGE
+  google_mobile_ads: ^2.3.0
+  
+
+dev_dependencies:
+  build_runner: ^2.3.3
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
